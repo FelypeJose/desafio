@@ -1,4 +1,4 @@
-package br.com.desafio.desafio.dto;
+package br.com.desafio.dto;
 
 public class DesafioResponseDTO {
 }

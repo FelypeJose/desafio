@@ -1,6 +1,4 @@
-package br.com.desafio.desafio.model;
-
-import org.springframework.beans.factory.annotation.Configurable;
+package br.com.desafio.model;
 
 import javax.persistence.*;
 
@@ -8,9 +6,6 @@ import javax.persistence.*;
 public class DesafioEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Integer id;
-
     @Column(name = "logic", nullable = false)
     private Integer logic;
 
@@ -35,16 +30,11 @@ public class DesafioEntity {
     @Column(name = "mxr")
     private Integer mxr;
 
+    @Column(name = "mxf")
+    private Integer mxf;
+
     @Column(name = "verfm")
     private String verfm;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public Integer getLogic() {
         return logic;
@@ -108,6 +98,14 @@ public class DesafioEntity {
 
     public void setMxr(Integer mxr) {
         this.mxr = mxr;
+    }
+
+    public Integer getMxf() {
+        return mxf;
+    }
+
+    public void setMxf(Integer mxf) {
+        this.mxf = mxf;
     }
 
     public String getVerfm() {
