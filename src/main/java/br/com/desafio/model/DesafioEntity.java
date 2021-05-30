@@ -3,6 +3,7 @@ package br.com.desafio.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "desafio")
 public class DesafioEntity {
 
     @Id

@@ -4,34 +4,34 @@ import io.swagger.annotations.ApiModelProperty;
 
 public class DesafioRequestDTO {
 
-    @ApiModelProperty(example = "44332211", required = true, dataType = "integer", position = 0)
+    @ApiModelProperty(example = "44332211", required = true, dataType = "integer", position = 1)
     private Integer logic;
 
-    @ApiModelProperty(example = "123", required = true, dataType = "string", position = 1)
+    @ApiModelProperty(example = "123", required = true, dataType = "string", position = 2)
     private String serial;
 
-    @ApiModelProperty(example = "PWWIN", required = true, dataType = "string", position = 2)
+    @ApiModelProperty(example = "PWWIN", required = true, dataType = "string", position = 3)
     private String model;
 
-    @ApiModelProperty(example = "0", dataType = "integer", position = 3)
+    @ApiModelProperty(example = "0", dataType = "integer", position = 4)
     private Integer sam;
 
-    @ApiModelProperty(example = "F04A2E4088B", dataType = "string", position = 4)
+    @ApiModelProperty(example = "F04A2E4088B", dataType = "string", position = 5)
     private String ptid;
 
-    @ApiModelProperty(example = "4", dataType = "integer", position = 5)
+    @ApiModelProperty(example = "4", dataType = "integer", position = 6)
     private Integer plat;
 
-    @ApiModelProperty(example = "8.00b3", dataType = "string", required = true, position = 6)
+    @ApiModelProperty(example = "8.00b3", dataType = "string", required = true, position = 7)
     private String version;
 
-    @ApiModelProperty(example = "0", dataType = "integer", position = 7)
+    @ApiModelProperty(example = "0", dataType = "integer", position = 8)
     private Integer mxr;
 
-    @ApiModelProperty(example = "16777216", dataType = "integer", position = 8)
+    @ApiModelProperty(example = "16777216", dataType = "integer", position = 9)
     private Integer mxf;
 
-    @ApiModelProperty(example = "PWWIN", dataType = "string", position = 9)
+    @ApiModelProperty(example = "PWWIN", dataType = "string", position = 10)
     private String verfm;
 
     public Integer getLogic() {
